@@ -30,6 +30,8 @@ class _TaskFourState extends State<TaskFour> {
     'https://www.boredpanda.com/blog/wp-content/uploads/2022/08/most-influential-people-3-62e7b43c488da__700.jpg',
     'https://www.boredpanda.com/blog/wp-content/uploads/2022/08/most-influential-people-2-62e7b2fa30b64__700.jpg',
     'https://www.boredpanda.com/blog/wp-content/uploads/2022/08/most-influential-people-7-62e7b70ce6498__700.jpg',
+    'assets/pic.jpg',
+    'assets/flag.png',
   ];
 
   void changeIcon() {
