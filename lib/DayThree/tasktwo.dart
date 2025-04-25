@@ -17,6 +17,8 @@ class _TaskTwoState extends State<TaskTwo> {
     return MaterialApp(
       home: Scaffold(
         appBar: AppBar(
+          actions: [Icon(Icons.alarm)],
+          leading: Icon(Icons.house_outlined),
           title: Text('Task Two (Order Menu)'),
           centerTitle: true,
           backgroundColor: Colors.red,
@@ -84,11 +86,21 @@ Widget ListItem(String url, String title, String desc, String buttonText) {
           SizedBox(height: 10),
           Text(desc),
           SizedBox(height: 10),
+
+          Divider(
+            height: 20,
+            indent: 20,
+            endIndent: 20,
+            thickness: 5,
+            color: Colors.red,
+          ),
           ElevatedButton(
             style: ElevatedButton.styleFrom(minimumSize: Size(200, 50)),
             onPressed: () {},
             child: Text(buttonText, style: TextStyle(fontSize: 23)),
           ),
+
+          Divider(color: Colors.red[200]),
         ],
       ),
     ),
